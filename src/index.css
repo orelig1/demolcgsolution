@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.carousel-control-next,
+.carousel-control-prev, 
+.carousel-indicators {
+    filter: invert(100%);
+}
+
+a {
+  color: #AB0C18 !important; /* Set link color to #AB0C18 */
+  text-decoration: none !important; /* Remove underline */
+}
+
+a:hover {
+  text-decoration: none !important; /* Remove underline on hover */
+}
+
