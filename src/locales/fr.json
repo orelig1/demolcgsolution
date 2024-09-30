@@ -1,64 +1,64 @@
 {
-    "Equipe": {
-      "LC": {
-        "nom": "Louis-Charles Gauthier",
-        "role": "CO-PRÉSIDENT LCG SOLUTION",
-        "description": "Président directeur général de LCG Solution, Louis-Charles Gauthier est un expert reconnu en analyse d’affaires. Il est amené à intervenir auprès des organisations pour élaborer des plans stratégiques et déployer les bonnes pratiques en analyse d’affaires et en gestion de programmes. Il a notamment été chargé de projet dans une refonte majeure de programmes du Ministère de l’Immigration du Québec. M. Gauthier détient une maîtrise en littératures de langue française et est formateur en analyse d’affaires depuis 2007. Possédant plus de 20 ans d’expérience en informatique, il est reconnu pour son expertise en analyse d’affaires et en conseil stratégique. Il a fondé LCG Solution en 2007 et fut membre fondateur de la section montréalaise du IIBA en 2005 puis successivement, vice-président et président de 2010 à 2012. Il est un conférencier recherché ayant fait plusieurs prestations auprès d’entreprises et d’organismes tels que PMI, du IIBA, ainsi qu’à plusieurs colloques à Montréal, Québec, Genève et Paris (BASF)."
-      },
-      "JV": {
-        "nom": "Jean Vaillancourt",
-        "role": "PRÉSIDENT LCG TECHNO",
-        "description": "Jean Vaillancourt est Président de LCG Techno. Il détient un Baccalauréat en informatique mathématique de Université Laval. Après quelques années en tant que consultant, M. Vaillancourt a œuvré au gouvernement du Québec de 1987 à 2018 en tant que développeur, analyste fonctionnel, webmestre et architecte de système. Il apporte à LCG Solution son expertise en Orienté Objet, web, modélisation de données et systèmes, programmation, sécurité, GED, architecture et méthodologie de développement. En 2003, il a co-fondé Agrafe Studio, une entreprise de réalisation de sites web. Il a aussi participé à la fondation de Kanga Media en 2008."
-      },
-      "PA": {
-        "nom":  "Pascale Audet",
-        "role": "DÉVELOPPEUSE DE SYSTÈMES INFORMATIQUES ET DE COMPÉTENCES HUMAINES",
-        "description": "Pascale-Andrée Audet est une développeuse de systèmes informatiques et de compétences humaines. Elle écrit des applications web en JavaScript, Java et tout ce qui est nécessaire pour performer. Elle est une développeuse full-stack qui croit en la collaboration et la croissance de l'équipe. Pascale-Andrée prend plaisir dans l'art musical et visuel, tout comme dans le jardinage. À ce jour, son jardin fait plus de 92m2!"
-      },
-      "AG": {
-        "nom": "Aurélie Gauthier",
-        "role": "DÉVELOPPEUSE JUNIOR",
-        "description": "Aurélie Gauthier est une développeuse junior spécialisée en Front-end, maîtrisant avec expertise JavaScript, React, HTML et CSS. Diplômée en décembre 2023, elle se passionne pour la création d'interfaces utilisateur dynamiques et conviviales. Ses langages de prédilection incluent Java, PHP, SQL et PL/SQL, témoignant de sa curiosité et de son intérêt pour une variété de technologies."
-      }
+  "Equipe": {
+    "LC": {
+      "nom": "Louis-Charles Gauthier",
+      "role": "Président directeur général LCG SOLUTION",
+      "description": "Président directeur général de LCG Solution, Louis-Charles Gauthier est un expert reconnu en analyse d’affaires. Il est amené à intervenir auprès des organisations pour élaborer des plans stratégiques et déployer les bonnes pratiques en analyse d’affaires et en gestion de projet, ou programmes. M. Gauthier cummule plus de 25 ans d’expérience en informatique. Au fil des ans, il a acquis une expertise en évaluation de personnel qu'il a utilisé pour développer un cadre d'évaluation utilisé pour évaluer les analystes d'affaires, les gestionnaires de projet ou tout autre type d'emploi. Il a fondé LCG Solution en 2007. Il fut membre fondateur de la section montréalaise du IIBA en 2005 puis successivement, vice-président et président de 2010 à 2012. Il est un conférencier recherché ayant fait plusieurs prestations auprès d’entreprises et d’organismes tels que PMI, du IIBA, ainsi qu’à plusieurs colloques à Montréal, Québec, Genève et Paris (BASF).  Il ensegne la gestion de projet à L'université McGill."
     },
-    "About": {
-        "clients": "NOS CLIENTS",
-        "equipe": "NOTRE ÉQUIPE",
-        "description": "Fondée en 2007, LCG Solution est une société spécialisée dans les domaines de l’analyse d’affaires, de la gestion de projets et de l’architecture d’entreprise.",
-        "description1": "Notre offre de services se présente sous ces quatre volets:",
-        "academie": "L’Académie d’ingénierie d’affaires ",
-        "academie.description": "offre des services de formations, de coaching et de conférences. On y retrouve des formations sur des notions de base, des formations spécialisées et des parcours certifiants. Nos formations sont offertes en modes présentiel et hybride. La liste complète des cours peut être consultée ici. Si vous n’y trouvez pas ce que vous recherchez, n’hésitez pas à nous contacter, il nous fera plaisir d’ajuster nos cours à vos besoins.",
-        "conseil": "LCG Conseil ",
-        "conseil.description": "offre des services d’accompagnement et de conseil à la direction d’entreprise. Nous œuvrons auprès des bureaux de projets ainsi que dans les autres secteurs des organisations pour les aider à la gouvernance des projets et à l’élaboration des besoins en suivant les meilleures pratiques en analyse d’affaires et en gestion de projet ou de programme.",
-        "RH": "LCG Ressource humaine ",
-        "RH.description": "offre des services de placement de personnel en analyse d’affaires et en gestion de projet. Nous offrons des services de qualification pré-embauche et de support à la description de tâche. Notre personnel, en mandat dans votre organisation, profite d’un encadrement par nos mentors afin d’assurer la qualité de leur prestation.",
-        "performance": "LCG Performance",
-        "performance.description": "offre un service d’évaluation des compétences métiers. Notre approche distinctive est basée sur l’utilisation de notre outil Upskills® et sur une approche simplifiée intégrant l’évaluation métier et l’évaluation psychométrique. Nous vous appuyons pour des évaluations de base à la pré-embauche ou pour des évaluations plus approfondies afin d’élaborer des plans de développement."
+    "JV": {
+      "nom": "Jean Vaillancourt",
+      "role": "PRÉSIDENT LCG TECHNO",
+      "description": "Jean Vaillancourt est Président de LCG Techno. Il détient un Baccalauréat en informatique mathématique de Université Laval. Après quelques années en tant que consultant, M. Vaillancourt a œuvré au gouvernement du Québec de 1987 à 2018 en tant que développeur, analyste fonctionnel, webmestre et architecte de système. Il apporte à LCG Solution son expertise en Orienté Objet, web, modélisation de données et systèmes, programmation, sécurité, GED, architecture et méthodologie de développement. En 2003, il a co-fondé Agrafe Studio, une entreprise de réalisation de sites web. Il a aussi participé à la fondation de Kanga Media en 2008."
     },
-    "Accueil":{
-        "Conseil": {
-            "titre": "CONSEIL",
-            "sous-titre": "Conseil Stratégique",
-            "description": "Notre service-conseil Afin de répondre adéquatement aux besoins de nos différents clients,  nos experts utilisent une approche d’analyse qui leur permet d’identifier les causes profondes des problèmes afin de faciliter la prise de décision.",
-            "bouton": "En savoir plus"
-        },
-        "Academie": {
-            "titre": "ACADÉMIE",
-            "sous-titre": "Formation",
-            "description": "L'Académie de LCG Solution favorise l'innovation et l'efficacité organisationnelle. Le développement des formations intègre une approche structurée, offrant des programmes en présentiel et en hybride, ainsi que des services de coaching personnalisés.",
-            "bouton": "En savoir plus"
-        },
-        "Performance": {
-            "titre": "PERFORMANCE",
-            "sous-titre": "Évaluation de la performance",
-            "description": "LCG Solution propose un outil novateur pour évaluer les compétences des ressources, simplifiant les processus d'évaluation et offrant des résultats transparents et conformes aux normes établies, avec l'intégration des tests psychométriques.",
-            "bouton": "En savoir plus"
-        },
-        "Technologie": {
-            "titre": "TECHNOLOGIE",
-            "sous-titre": "Notre équipe tecnologique",
-            "description": "LCG Solution propose un outil novateur pour évaluer les compétences des ressources, simplifiant les processus d'évaluation et offrant des résultats transparents et conformes aux normes établies, avec l'intégration des tests psychométriques.",
-            "bouton": "En savoir plus"
-        }
+    "PA": {
+      "nom": "Pascale Audet",
+      "role": "DÉVELOPPEUSE DE SYSTÈMES INFORMATIQUES ET DE COMPÉTENCES HUMAINES",
+      "description": "Pascale-Andrée Audet est une développeuse de systèmes informatiques et de compétences humaines. Elle écrit des applications web en JavaScript, Java et tout ce qui est nécessaire pour performer. Elle est une développeuse full-stack qui croit en la collaboration et la croissance de l'équipe. Pascale-Andrée prend plaisir dans l'art musical et visuel, tout comme dans le jardinage. À ce jour, son jardin fait plus de 92m2!"
+    },
+    "AG": {
+      "nom": "Aurélie Gauthier",
+      "role": "DÉVELOPPEUSE JUNIOR",
+      "description": "Aurélie Gauthier est une développeuse junior spécialisée en Front-end, maîtrisant avec expertise JavaScript, React, HTML et CSS. Diplômée en décembre 2023, elle se passionne pour la création d'interfaces utilisateur dynamiques et conviviales. Ses langages de prédilection incluent Java, PHP, SQL et PL/SQL, témoignant de sa curiosité et de son intérêt pour une variété de technologies."
     }
+  },
+  "About": {
+    "clients": "NOS CLIENTS",
+    "equipe": "NOTRE ÉQUIPE",
+    "description": "Fondée en 2007, LCG Solution est une société spécialisée dans les domaines de l’analyse d’affaires, de la gestion de projets et de l’architecture d’entreprise.",
+    "description1": "Notre offre de services se présente sous ces quatre volets:",
+    "academie": "L’Académie d’ingénierie d’affaires ",
+    "academie.description": "offre des services de formations, de coaching et de conférences. On y retrouve des formations sur des notions de base, des formations spécialisées et des parcours certifiants. Nos formations sont offertes en modes présentiel et hybride. La liste complète des cours peut être consultée ici. Si vous n’y trouvez pas ce que vous recherchez, n’hésitez pas à nous contacter, il nous fera plaisir d’ajuster nos cours à vos besoins.",
+    "conseil": "LCG Conseil ",
+    "conseil.description": "offre des services d’accompagnement et de conseil à la direction d’entreprise. Nous œuvrons auprès des bureaux de projets ainsi que dans les autres secteurs des organisations pour les aider à la gouvernance des projets et à l’élaboration des besoins en suivant les meilleures pratiques en analyse d’affaires et en gestion de projet ou de programme.",
+    "RH": "LCG Ressource humaine ",
+    "RH.description": "offre des services de placement de personnel en analyse d’affaires et en gestion de projet. Nous offrons des services de qualification pré-embauche et de support à la description de tâche. Notre personnel, en mandat dans votre organisation, profite d’un encadrement par nos mentors afin d’assurer la qualité de leur prestation.",
+    "performance": "LCG Performance",
+    "performance.description": "offre un service d’évaluation des compétences métiers. Notre approche distinctive est basée sur l’utilisation de notre outil Upskills® et sur une approche simplifiée intégrant l’évaluation métier et l’évaluation psychométrique. Nous vous appuyons pour des évaluations de base à la pré-embauche ou pour des évaluations plus approfondies afin d’élaborer des plans de développement."
+  },
+  "Accueil": {
+    "Conseil": {
+      "titre": "CONSEIL",
+      "sous-titre": "Conseil Stratégique",
+      "description": "Notre service-conseil Afin de répondre adéquatement aux besoins de nos différents clients,  nos experts utilisent une approche d’analyse qui leur permet d’identifier les causes profondes des problèmes afin de faciliter la prise de décision.",
+      "bouton": "En savoir plus"
+    },
+    "Academie": {
+      "titre": "ACADÉMIE",
+      "sous-titre": "Formation",
+      "description": "L'Académie de LCG Solution favorise l'innovation et l'efficacité organisationnelle. Le développement des formations intègre une approche structurée, offrant des programmes en présentiel et en hybride, ainsi que des services de coaching personnalisés.",
+      "bouton": "En savoir plus"
+    },
+    "Performance": {
+      "titre": "PERFORMANCE",
+      "sous-titre": "Évaluation de la performance",
+      "description": "LCG Solution propose un outil novateur pour évaluer les compétences des ressources, simplifiant les processus d'évaluation et offrant des résultats transparents et conformes aux normes établies, avec l'intégration des tests psychométriques.",
+      "bouton": "En savoir plus"
+    },
+    "Technologie": {
+      "titre": "TECHNOLOGIE",
+      "sous-titre": "Notre équipe tecnologique",
+      "description": "LCG Solution propose un outil novateur pour évaluer les compétences des ressources, simplifiant les processus d'évaluation et offrant des résultats transparents et conformes aux normes établies, avec l'intégration des tests psychométriques.",
+      "bouton": "En savoir plus"
+    }
+  }
 }

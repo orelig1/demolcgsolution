@@ -7,7 +7,7 @@ import TroisRiviere_logo from '../images/TroisRiviere_logo.png'
 import BRP_logo from '../images/BRP_logo.png'
 import PMI_logo from '../images/PMI_logo.png'
 import logo_Giro1 from '../images/logo_Giro1.png'
-import CroisiereMS_logo from '../images/CroisiereMS_logo.png'
+import agnico from '../images/Agnico.png'
 import AIM_logo from '../images/AIM_logo.jpg'
 import AIMQ_logo from '../images/AIMQ_logo.png'
 import { Box } from '@mui/material';
@@ -54,8 +54,8 @@ const itemData = [
     title: 'Giro',
   },
   {
-    img: CroisiereMS_logo,
-    title: 'Croisiere MS',
+    img: agnico,
+    title: 'AGnico Eagle',
   },
   {
     img: 'https://www.jobillico.com/medias/logo-entreprise/0/0/exp_logo_2254_fr_2020_05_04_13_59_09.jpg',

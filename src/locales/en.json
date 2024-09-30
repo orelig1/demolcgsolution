@@ -1,64 +1,64 @@
 {
-    "Equipe": {
-      "LC": {
-        "nom": "Louis-Charles Gauthier",
-        "role": "LCG SOLUTION CO-PRESIDENT",
-        "description": "CEO of LCG Solution, Louis-Charles Gauthier is a recognized expert in business analysis. He works with organizations to develop strategic plans and deploy best practices in business analysis and program management. In particular, he was project manager in a major program redesign of the Quebec Ministry of Immigration. Mr. Gauthier holds a master’s degree in French-language literature and has been a trainer in business analysis since 2007. With over 20 years of experience in IT, he is recognized for his expertise in business analysis and strategic consulting. He founded LCG Solution in 2007 and was a founding member of the Montreal chapter of the IIBA in 2005 and successively Vice-President and President from 2010 to 2012. He is a sought-after speaker who has performed with companies and organizations such as PMI, IIBA, as well as several symposia in Montreal, Quebec, Geneva and Paris (BASF)."
-      },
-      "JV": {
-        "nom": "Jean Vaillancourt",
-        "role": "PRESIDENT OF LCG TECHNO",
-        "description": "Jean Vaillancourt is President of LCG Techno. He holds a BA in mathematical computer science from Université Laval. After a few years as a consultant, Mr. Vaillancourt worked for the Quebec government from 1987 to 2018 as a developer, functional analyst, webmaster and system architect. He brings to LCG Solution his expertise in Oriented Object, web, data modeling and systems, programming, security, EDM, architecture and development methodology. In 2003, he co-founded Agrafe Studio, a website development company. He also helped found Kanga Media in 2008."
-      },
-      "PA": {
-        "nom":  "Pascale Audet",
-        "role": "COMPUTER SYSTEMS AND HUMAN SKILLS DEVELOPER",
-        "description": "Pascale-Andrée Audet is a computer systems and human skills developer. She writes web applications in JavaScript, Java and everything that is needed to perform. She is a full-stack developer who believes in collaboration and team growth. Pascale-Andrée enjoys music and visual art, as well as gardening. To date, her garden is over 92m2!"
-      },
-      "AG": {
-        "nom": "Aurélie Gauthier",
-        "role": "JUNIOR DEVELOPER",
-        "description": "Aurélie Gauthier is a junior front-end developer with expertise in JavaScript, React, HTML and CSS. Graduated in December 2023, she is passionate about creating dynamic and user-friendly user interfaces. His favorite languages include Java, PHP, SQL and PL/SQL, testifying to his curiosity and interest in a variety of technologies."
-      }
+  "Equipe": {
+    "LC": {
+      "nom": "Louis-Charles Gauthier",
+      "role": "LCG SOLUTION PRESIDENT",
+      "description": "Louis-Charles Gauthier, CEO of LCG Solution, is a recognized expert in business analysis. He is involved in the organization’s strategic plans and good practices in business analysis and project management. Mr. Gauthier has more than 25 years of experience in computer science. Over the years, he has acquired expertise in staff assessment which he used to develop an assessment framework used to assess business analysts, project managers or any other type of employment. He founded LCG Solution in 2007. He was a founding member of the Montreal section of IIBA in 2005 and then vice president and president from 2010 to 2012. He is a sought-after speaker who has given several presentations to companies and organizations such as PMI, the IIBA, and at several symposiums in Montreal, Quebec, Geneva, and Paris (BASF).  He teaches project management at McGill University."
     },
-    "About": {
-        "clients": "OUR CLIENTS",
-        "equipe": "OUR TEAM",
-        "description": "Founded in 2007, LCG Solution is a company specializing in the fields of business analysis, project management and enterprise architecture.",
-        "description1": "There are four components to our service offering:",
-        "academie": "L’Académie d’ingénierie d’affaires ",
-        "academie.description": "offers training, coaching and conference services. It includes training on basic concepts, specialized training and certification courses. Our courses are offered in both face-to-face and hybrid modes. The full list of courses can be found here. If you do not find what you are looking for, do not hesitate to contact us, we will be happy to adjust our courses to your needs.",
-        "conseil": "LCG Conseil ",
-        "conseil.description": "offers consulting services to company management. We work with project offices and other sectors of organizations to assist them in project governance and needs development by following best practices in business analysis and project or program management.",
-        "RH": "LCG Ressource humaine ",
-        "RH.description": "offers personnel placement services in business analysis and project management. We offer pre-hire qualification services and job description support. Our staff, who work for your organization, are supervised by our mentors to ensure the quality of their service.",
-        "performance": "LCG Performance",
-        "performance.description": "offers a trade skills assessment service. Our distinctive approach is based on the use of our Upskills® tool and a simplified approach integrating business and psychometric assessment. We support you with basic pre-hire assessments or more in-depth assessments to develop development plans."
+    "JV": {
+      "nom": "Jean Vaillancourt",
+      "role": "PRESIDENT OF LCG TECHNO",
+      "description": "Jean Vaillancourt is President of LCG Techno. He holds a BA in mathematical computer science from Université Laval. After a few years as a consultant, Mr. Vaillancourt worked for the Quebec government from 1987 to 2018 as a developer, functional analyst, webmaster and system architect. He brings to LCG Solution his expertise in Oriented Object, web, data modeling and systems, programming, security, EDM, architecture and development methodology. In 2003, he co-founded Agrafe Studio, a website development company. He also helped found Kanga Media in 2008."
     },
-    "Accueil":{
-        "Conseil": {
-            "titre": "CONSULTING",
-            "sous-titre": "Strategic consulting",
-            "description": "In order to adequately meet the needs of our various clients, our experts use an analytical approach that allows them to identify the root causes of problems in order to facilitate decision-making.",
-            "bouton": "Learn more"
-        },
-        "Academie": {
-            "titre": "ACADEMY",
-            "sous-titre": "Training",
-            "description": "The LCG Solution Academy promotes innovation and organizational effectiveness. Training development incorporates a structured approach, offering face-to-face and hybrid programs, as well as personalized coaching services.",
-            "bouton": "Learn more"
-        },
-        "Performance": {
-            "titre": "PERFORMANCE",
-            "sous-titre": "Performance Evaluation",
-            "description": "LCG Solution offers an innovative tool to assess resource competencies, simplifying assessment processes and delivering transparent and standards-compliant results with the integration of psychometric tests.",
-            "bouton": "Learn more"
-        },
-        "Technologie": {
-            "titre": "TECHNOLOGY",
-            "sous-titre": "Our tech team",
-            "description": "LCG Solution offers an innovative tool to assess resource competencies, simplifying assessment processes and delivering transparent and standards-compliant results with the integration of psychometric tests.",
-            "bouton": "Learn more"
-        }
+    "PA": {
+      "nom": "Pascale Audet",
+      "role": "COMPUTER SYSTEMS AND HUMAN SKILLS DEVELOPER",
+      "description": "Pascale-Andrée Audet is a computer systems and human skills developer. She writes web applications in JavaScript, Java and everything that is needed to perform. She is a full-stack developer who believes in collaboration and team growth. Pascale-Andrée enjoys music and visual art, as well as gardening. To date, her garden is over 92m2!"
+    },
+    "AG": {
+      "nom": "Aurélie Gauthier",
+      "role": "JUNIOR DEVELOPER",
+      "description": "Aurélie Gauthier is a junior front-end developer with expertise in JavaScript, React, HTML and CSS. Graduated in December 2023, she is passionate about creating dynamic and user-friendly user interfaces. His favorite languages include Java, PHP, SQL and PL/SQL, testifying to his curiosity and interest in a variety of technologies."
     }
+  },
+  "About": {
+    "clients": "OUR CLIENTS",
+    "equipe": "OUR TEAM",
+    "description": "Founded in 2007, LCG Solution is a company specializing in the fields of business analysis, project management and enterprise architecture.",
+    "description1": "There are four components to our service offering:",
+    "academie": "L’Académie d’ingénierie d’affaires ",
+    "academie.description": "offers training, coaching and conference services. It includes training on basic concepts, specialized training and certification courses. Our courses are offered in both face-to-face and hybrid modes. The full list of courses can be found here. If you do not find what you are looking for, do not hesitate to contact us, we will be happy to adjust our courses to your needs.",
+    "conseil": "LCG Conseil ",
+    "conseil.description": "offers consulting services to company management. We work with project offices and other sectors of organizations to assist them in project governance and needs development by following best practices in business analysis and project or program management.",
+    "RH": "LCG Ressource humaine ",
+    "RH.description": "offers personnel placement services in business analysis and project management. We offer pre-hire qualification services and job description support. Our staff, who work for your organization, are supervised by our mentors to ensure the quality of their service.",
+    "performance": "LCG Performance",
+    "performance.description": "offers a trade skills assessment service. Our distinctive approach is based on the use of our Upskills® tool and a simplified approach integrating business and psychometric assessment. We support you with basic pre-hire assessments or more in-depth assessments to develop development plans."
+  },
+  "Accueil": {
+    "Conseil": {
+      "titre": "CONSULTING",
+      "sous-titre": "Strategic consulting",
+      "description": "In order to adequately meet the needs of our various clients, our experts use an analytical approach that allows them to identify the root causes of problems in order to facilitate decision-making.",
+      "bouton": "Learn more"
+    },
+    "Academie": {
+      "titre": "ACADEMY",
+      "sous-titre": "Training",
+      "description": "The LCG Solution Academy promotes innovation and organizational effectiveness. Training development incorporates a structured approach, offering face-to-face and hybrid programs, as well as personalized coaching services.",
+      "bouton": "Learn more"
+    },
+    "Performance": {
+      "titre": "PERFORMANCE",
+      "sous-titre": "Performance Evaluation",
+      "description": "LCG Solution offers an innovative tool to assess resource competencies, simplifying assessment processes and delivering transparent and standards-compliant results with the integration of psychometric tests.",
+      "bouton": "Learn more"
+    },
+    "Technologie": {
+      "titre": "TECHNOLOGY",
+      "sous-titre": "Our tech team",
+      "description": "LCG Solution offers an innovative tool to assess resource competencies, simplifying assessment processes and delivering transparent and standards-compliant results with the integration of psychometric tests.",
+      "bouton": "Learn more"
+    }
+  }
 }
