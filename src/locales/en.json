@@ -1,4 +1,45 @@
 {
+  "Header": {
+    "about" : "About",
+    "contact": "Contact us",
+    "service": "Services"
+  },
+  "Breadcrumbs": {
+    "service": "Services",
+    "conseil": "Consulting",
+    "academie": "Academy",
+    "performance": "Performance",
+    "techno": "Technology"
+  },
+  "Contact": {
+    "title": "Contact us",
+    "name": "Name",
+    "last name": "Last name",
+    "email": "Email",
+    "company": "Company/Organization",
+    "phone": "Phone number",
+    "message": "Message",
+    "button": "Send"
+  },
+  "Services": {
+    "title": "SERVICES",
+    "conseil": {
+      "titre": "CONSULTING",
+      "description": "Strategic consulting"
+    },
+    "academie": {
+      "titre": "ACADEMY",
+      "description": "Training"
+    },
+    "performance": {
+      "titre": "PERFORMANCE",
+      "description": "Performance evaluation"
+    },
+    "techno": {
+      "titre": "TECHNOLOGY",
+      "description" : "Our technology team"
+    }
+  },
   "Equipe": {
     "LC": {
       "nom": "Louis-Charles Gauthier",
@@ -22,6 +63,7 @@
     }
   },
   "About": {
+    "title": "ABOUT US",
     "clients": "OUR CLIENTS",
     "equipe": "OUR TEAM",
     "description": "Founded in 2007, LCG Solution is a company specializing in the fields of business analysis, project management and enterprise architecture.",
@@ -60,5 +102,73 @@
       "description": "LCG Solution offers an innovative tool to assess resource competencies, simplifying assessment processes and delivering transparent and standards-compliant results with the integration of psychometric tests.",
       "bouton": "Learn more"
     }
+  },
+  "Conseil": {
+    "titre": "CONSULTING",
+    "onglet": "Conseil",
+    "sous-titre1": {
+      "titre": "Our consulting service",
+      "description": "To adequately address the needs of our different clients, our experts use an analytical approach that allows them to identify root causes of problems in order to facilitate decision making. They have several tools at their disposal, but they prefer the following tools:",
+      "bullet1": "The development of a business case",
+      "bullet2": "Mapping of capacities",
+      "bullet3": "The approach of Design Thinking"
+    },
+    "sous-titre2" : {
+      "titre" : "Business case",
+      "description1": "A Business case is a tool that allows to gather in one document all the necessary and relevant elements for the choice of a solution and the start of a project.",
+      "description2": "A Business case can take several forms: an opportunity assessment, a preliminary analysis or a pre-project study. LCG Solution consultants will assist you in the analysis of needs and in gathering information from stakeholders to develop the appropriate case for your situation. They can take over the whole process or support you in yours."
+    },
+    "sous-titre3" : {
+      "titre" : "Mapping of capacities",
+      "description1": "Capacity mapping is a business architecture concept that allows you to visualize what an organization does regardless of its organizational structure or the organization of its systems. Several models exist for mapping. Our advisors use, among others, the Business Model Canvas.",
+      "description2": "A business capacity mapping is a model that combines the capabilities, processes and functions needed for success with the appropriate resources to deliver effectively what is required to achieve the mission.",
+      "description3": "The development of a capacity mapping is part of an enterprise architecture logic. This is a powerful lever to master the complexity of the processes, structures and technologies that make up the organization. Enterprise architecture, which includes a business architecture, translates the vision and strategic orientations into concrete objectives to define, with assurance, the target of projects.",
+      "description4": "LCG Solution consultants will be able to support you in the implementation of such mapping and the necessary transformation of the organization."
+    },
+    "sous-titre4" : {
+      "titre": "The approach of Design Thinking",
+      "description": "Design Thinking was first a creative strategy used by designers in design. It was then explored as an approach to solving problems in organizations. Close to business analysis in terms of problem-solving tools, it approaches issues differently by focusing on human and user aspects."
+    },
+    "sous-titre5" : {
+      "titre": "Corporate transformation consulting",
+      "description": "Organizational transformation is one of the key characteristics of a growing business. The growing complexity of transformation efforts is a challenge that LCG Solution advisors understand well. Using business analysis and architecture tools, supported by an understanding of project, program and portfolio governance, LCG Solution advisors will support you in your strategic thinking, and subsequent planning, organization and implementation steps."
+    },
+    "sous-titre6" : {
+      "titre": "Project, program and portfolio management",
+      "description": "Following the principles of PMI ©, our advisors are distinguished by integrating business analysis with our approaches to project, program, portfolio and change management. Our experienced consultants will support you by developing clear definitions for your projects. This will allow you to mobilize your teams in the implementation of your strategies."
+    },
+    "sous-titre7" : {
+      "titre": "Project office",
+      "description": "The project office can take on different roles in an organization. Highly directive and only supportive, it must meet a real need of the organization and increase the value of projects. To evolve a project office, it must be integrated into the organization’s management practices while incorporating strong and consistent governance mechanisms."
+    }
+  },
+  "Academie": {
+    "titre": "ACADEMY",
+    "description": "The Academy is intended as a place to bring together knowledge of key trades, techniques and tools in business engineering. It advocates an approach that fosters innovation while improving the ability of individuals to structure organizations to increase their efficiency and profitability. Here we are trying to create a space for reflection on ways of doing things and tools.",
+    "sous-titre1": {
+      "titre": "Approach to training development",
+      "description1": "At LCG Solution, the development of training is based on our trainers' expertise, an understanding of the necessary skills and a structured pedagogical approach.",
+      "description2": "Our training is offered in both face-to-face and hybrid mode."
+    },
+    "sous-titre2" : {
+      "titre": "Coaching",
+      "description": "The purpose of coaching is to enable individuals to improve their approach to specific situations or activities."
+    }
+  },
+  "Performance": {
+    "titre": "PERFORMANCE",
+    "description1": "The world of skills assessment is booming, driven by rapid technological change. In addition, jobs are becoming more specialized and it is increasingly difficult for managers to assess the skills of their resources themselves. They therefore turn to specialists in the field who can assess the skills of resources based on established standards.",
+    "description2": "Evaluators are usually equipped with templates, spreadsheets and hard-to-understand documents. These assessments are expensive, time-consuming and difficult to compare the work of one assessor against another. To facilitate the transparency and consistency of evaluations, LCG Solution has developed a tool that allows the data collected by the evaluations to be compiled, compared with each other and positioned against established standards",
+    "description3": {
+      "titre": "The benefits of this tool are many:",
+      "bullet1": "Easy to understand results",
+      "bullet2": "Optimized processes",
+      "bullet3": "Pre-validated standards",
+      "bullet4": "The integration of psychometric tests"
+    }
+  },
+  "Technologie": {
+    "titre": "TECHNOLOGY",
+    "description": "If you are looking for LCG Technology, our sister company, follow this link : "
   }
 }

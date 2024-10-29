@@ -7,13 +7,13 @@ import CardActions from '@mui/material/CardActions';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import locales from '../locales/fr.json';
+import { withTranslation } from 'react-i18next';
 import LC from '../images/LC.png';
 import JV from '../images/JV.png'
 import AG from '../images/AG.jpg'
 import PA from '../images/PA.png'
 
-function NotreEquipe() {
+function NotreEquipe({t}) {
 
   return (
     <Carousel style={{ height: "700px", minWidth: "500px"}}>
@@ -25,13 +25,13 @@ function NotreEquipe() {
                 />
                 <CardContent>
                     <Typography variant="h5" component="div" sx={{ textAlign: 'center'}}>
-                        {locales.Equipe.LC.nom}
+                        {t('Equipe.LC.nom')}
                     </Typography>
                     <Typography color="text.secondary" sx={{ mb: 1.5, textAlign: 'center', fontSize: "0.8em"}}>
-                        {locales.Equipe.LC.role}
+                        {t('Equipe.LC.role')}
                     </Typography>
                     <Typography variant="body2" color="text.secondary" sx={{ textAlign: 'justify', mt: "20px" }}>
-                        {locales.Equipe.LC.description}
+                        {t('Equipe.LC.description')}
                     </Typography>
                 </CardContent>
                 <CardActions disableSpacing sx={{ display: 'flex', justifyContent: 'center' }}>
@@ -52,13 +52,13 @@ function NotreEquipe() {
                 />
                 <CardContent>
                     <Typography variant="h5" component="div" sx={{ textAlign: 'center'}}>
-                        {locales.Equipe.JV.nom}
+                        {t('Equipe.JV.nom')}
                     </Typography>
                     <Typography color="text.secondary" sx={{ mb: 1.5, textAlign: 'center', fontSize: "0.8em"}}>
-                        {locales.Equipe.JV.role}
+                        {t('Equipe.JV.role')}
                     </Typography>
                     <Typography variant="body2" color="text.secondary" sx={{ textAlign: 'justify', mt: "20px" }}>
-                        {locales.Equipe.JV.description}
+                        {t('Equipe.JV.description')}
                     </Typography>
                 </CardContent>
                 <CardActions disableSpacing sx={{ display: 'flex', justifyContent: 'center' }}>
@@ -79,13 +79,13 @@ function NotreEquipe() {
                 />
                 <CardContent>
                     <Typography variant="h5" component="div" sx={{ textAlign: 'center'}}>
-                        {locales.Equipe.PA.nom}
+                        {t('Equipe.PA.nom')}
                     </Typography>
                     <Typography color="text.secondary" sx={{ mb: 1.5, textAlign: 'center', fontSize: "0.8em"}}>
-                        {locales.Equipe.PA.role}
+                        {t('Equipe.PA.role')}
                     </Typography>
                     <Typography variant="body2" color="text.secondary" sx={{ textAlign: 'justify', mt: "20px" }}>
-                        {locales.Equipe.PA.description}
+                        {t('Equipe.PA.description')}
                     </Typography>
                 </CardContent>
                 <CardActions disableSpacing sx={{ display: 'flex', justifyContent: 'center' }}>
@@ -106,13 +106,13 @@ function NotreEquipe() {
                 />
                 <CardContent>
                     <Typography variant="h5" component="div" sx={{ textAlign: 'center'}}>
-                        {locales.Equipe.AG.nom}
+                        {t('Equipe.AG.nom')}
                     </Typography>
                     <Typography color="text.secondary" sx={{ mb: 1.5, textAlign: 'center', fontSize: "0.8em"}}>
-                        {locales.Equipe.AG.role}
+                        {t('Equipe.AG.role')}
                     </Typography>
                     <Typography variant="body2" color="text.secondary" sx={{ textAlign: 'justify', mt: "20px" }}>
-                        {locales.Equipe.AG.description}
+                        {t('Equipe.AG.description')}
                     </Typography>
                 </CardContent>
                 <CardActions disableSpacing sx={{ display: 'flex', justifyContent: 'center' }}>
@@ -129,4 +129,4 @@ function NotreEquipe() {
   );
 }
 
-export default NotreEquipe;
+export default withTranslation()(NotreEquipe);

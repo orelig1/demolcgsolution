@@ -5,22 +5,23 @@ import { Link as RouterLink } from 'react-router-dom';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 import { Grid, Typography, Box, Stack, Breadcrumbs } from '@mui/material';
 import Coriolis from '../images/Coriolis_Logo.jpg'
+import { withTranslation } from 'react-i18next';
 
-function Academie() {
+function Academie({t}) {
 
   const breadcrumbs = [
     <Link underline="hover" key="1" color="inherit" component={RouterLink} to="/Services">
-      Services
+      {t('Breadcrumbs.service')}
     </Link>,
     <Typography key="3" color="text.primary" sx={{color:"#AB0C18"}}>
-        Académie
+        {t('Breadcrumbs.academie')}
     </Typography>,
   ];
 
   return (
     <Grid container direction="column" sx={{marginTop:"50px", display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
         <Box sx={{width: "45%"}}>
-          <Typography variant="h6" sx={{fontWeight: "bold", color:"#AB0C18" }}>ACADÉMIE</Typography>
+          <Typography variant="h6" sx={{fontWeight: "bold", color:"#AB0C18" }}>{t('Academie.titre')}</Typography>
           <CustomDivider sx={{marginBottom: "20px"}}/>
 
           <Stack spacing={2} sx={{marginBottom: "10px"}}>
@@ -34,18 +35,18 @@ function Academie() {
 
           <Box sx={{display: "flex", marginBottom: "50px"}}>
             <img src={Coriolis} style={{marginRight: "15px"}}/>
-            <Typography sx={{marginTop: "15px"}}>L’Académie se veut un lieu pour réunir la connaissance des métiers, des techniques et des outils clés en ingénierie d’affaires. On y prône une approche qui suscite l’innovation tout en améliorant la capacité des individus à structurer les organisations pour en accroître l’efficacité et la rentabilité. Ici, nous tentons de créer un espace de réflexion sur les façons de faire et les outils.</Typography>
+            <Typography sx={{marginTop: "15px"}}>{t('Academie.description')}</Typography>
           </Box>
           
-          <Typography variant="h5" sx={{marginBottom: "5px", color: "#AB0C18"}}>Approche de développement des formations</Typography>
-          <Typography sx={{ marginBottom: "20px"}}>Chez LCG Solution, le développement des formations s’appuie sur l’expertise de nos formateurs, sur une compréhension des compétences nécessaires et sur une approche pédagogique structurée.</Typography>
-          <Typography sx={{ marginBottom: "20px"}}>Nos formations sont offertes en mode présentiel et en mode hybride. </Typography>
+          <Typography variant="h5" sx={{marginBottom: "5px", color: "#AB0C18"}}>{t('Academie.sous-titre1.titre')}</Typography>
+          <Typography sx={{ marginBottom: "20px"}}>{t('Academie.sous-titre1.description1')}</Typography>
+          <Typography sx={{ marginBottom: "20px"}}>{t('Academie.sous-titre1.description2')}</Typography>
 
-          <Typography variant="h5" sx={{marginBottom: "5px", color: "#AB0C18"}}>Coaching</Typography>
-          <Typography sx={{ marginBottom: "20px"}}>Le but du coaching est de permettre aux individus d’améliorer leur manière d’aborder des situations ou des activités spécifiques.</Typography>
+          <Typography variant="h5" sx={{marginBottom: "5px", color: "#AB0C18"}}>{t('Academie.sous-titre2.titre')}</Typography>
+          <Typography sx={{ marginBottom: "20px"}}>{t('Academie.sous-titre2.description')}</Typography>
         </Box>
     </Grid>
   );
 }
 
-export default Academie;
+export default withTranslation()(Academie);

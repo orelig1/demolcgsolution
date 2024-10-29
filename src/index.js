@@ -5,8 +5,26 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import en from './locales/en.json';
+import fr from './locales/fr.json';
+import i18n from "i18next";
+import { initReactI18next } from "react-i18next";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const resources = {en: {translation: en}, fr: {translation: fr}};
+const language = navigator.language || navigator.userLanguage;
+
+i18n
+  .use(initReactI18next)
+  .init({
+    resources,
+    lng: language.substring(0,2),
+    fallbackLng: 'fr',
+    interpolation: {
+      escapeValue: false
+    }
+  });
+
+  const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />

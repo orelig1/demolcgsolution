@@ -4,20 +4,19 @@ import {AppBar, Box, IconButton, Toolbar, Typography, Menu, Container, Select, B
 import MenuIcon from '@mui/icons-material/Menu';
 import ReactCountryFlag from 'react-country-flag';
 import LCG_logo from "../images/LCG_logo.png";
+import { withTranslation } from 'react-i18next';
 
-const pages = ['À propos', 'Nous joindre', 'Services'];
-const languages = [
-  { name: 'French', code: 'fr', icon: <ReactCountryFlag countryCode="FR" svg /> },
-  { name: 'English', code: 'en', icon: <ReactCountryFlag countryCode="CA" svg /> },
-];
+function Header({ t, i18n }) {
+  const pages = ['Header.about', 'Header.contact', 'Header.service'];
+  const languages = [
+    { name: 'French', code: 'fr', icon: <ReactCountryFlag countryCode="FR" svg /> },
+    { name: 'English', code: 'en', icon: <ReactCountryFlag countryCode="CA" svg /> },
+  ];
 
-
-function Header() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
-  const [currentLanguage, setCurrentLanguage] = React.useState('en');
 
   const handleLanguageChange = (event) => {
-    setCurrentLanguage(event.target.value);
+    i18n.changeLanguage(event.target.value);
   };
 
   const handleOpenNavMenu = (event) => {
@@ -30,11 +29,11 @@ function Header() {
 
   const getPagePath = (page) => {
     switch (page) {
-      case 'À propos':
+      case 'Header.about':
         return '/a-propos';
-      case 'Nous joindre':
+      case 'Header.contact':
         return '/nous-joindre';
-      case 'Services':
+      case 'Header.service':
         return '/services';
       default:
         return `/${page}`;
@@ -95,7 +94,7 @@ function Header() {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
+                  <Typography textAlign="center">{t(page)}</Typography>
                 </MenuItem>
               ))}
             </Menu>
@@ -109,14 +108,14 @@ function Header() {
                 component={Link}
                 to={getPagePath(page)}
               >
-                {page}
+                {t(page)}
               </Button>
             ))}
           </Box>
           <Box sx={{ flexGrow:  0 }}>
             <Select
               variant="standard"
-              value={currentLanguage}
+              value={i18n.language}
               onChange={handleLanguageChange}
               sx={{ mt: 1.5, color: 'white' }}
             >
@@ -132,4 +131,4 @@ function Header() {
     </AppBar>
   );
 }
-export default Header;
+export default withTranslation()(Header);

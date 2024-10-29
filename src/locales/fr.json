@@ -1,4 +1,45 @@
 {
+  "Header": {
+    "about" : "À propos",
+    "contact": "Contactez nous",
+    "service": "Services"
+  },
+  "Breadcrumbs": {
+    "service": "Services",
+    "conseil": "Conseil",
+    "academie": "Académie",
+    "performance": "Performance",
+    "techno": "Technologie"
+  },
+  "Contact": {
+    "title": "Contactez nous",
+    "name": "Prénom",
+    "last name": "Nom",
+    "email": "Adresse courriel",
+    "company": "Compagnie/Organisation",
+    "phone": "Numéro de téléphone",
+    "message": "Message",
+    "button": "Envoyer"
+  },
+  "Services": {
+    "title": "SERVICES",
+      "conseil": {
+        "titre": "CONSEIL",
+        "description": "Conseil stratégique"
+      },
+      "academie": {
+        "titre": "ACADÉMIE",
+        "description": "Formation"
+      },
+      "performance": {
+        "titre": "PERFORMANCE",
+        "description": "Évaluation de la performance"
+      },
+      "techno": {
+        "titre": "TECHNOLOGIE",
+        "description" : "Notre équipe technologique"
+      }
+  },
   "Equipe": {
     "LC": {
       "nom": "Louis-Charles Gauthier",
@@ -22,6 +63,7 @@
     }
   },
   "About": {
+    "title": "À PROPOS DE NOUS",
     "clients": "NOS CLIENTS",
     "equipe": "NOTRE ÉQUIPE",
     "description": "Fondée en 2007, LCG Solution est une société spécialisée dans les domaines de l’analyse d’affaires, de la gestion de projets et de l’architecture d’entreprise.",
@@ -60,5 +102,73 @@
       "description": "LCG Solution propose un outil novateur pour évaluer les compétences des ressources, simplifiant les processus d'évaluation et offrant des résultats transparents et conformes aux normes établies, avec l'intégration des tests psychométriques.",
       "bouton": "En savoir plus"
     }
+  },
+  "Conseil": {
+    "titre": "CONSEIL",
+    "onglet": "Conseil",
+    "sous-titre1": {
+      "titre": "Notre service-conseil",
+      "description": "Afin de répondre adéquatement aux besoins de nos différents clients, nos experts utilisent une approche d’analyse qui leur permet d’identifier les causes profondes des problèmes afin de faciliter la prise de décision. Plusieurs outils sont à leur disposition, mais ils ont une préférence pour les outils suivants:",
+      "bullet1": "L’élaboration d’un business case (dossier de décision)",
+      "bullet2": "La cartographie des capacités",
+      "bullet3": "L’approche de Design Thinking"
+    },
+    "sous-titre2" : {
+      "titre" : "Dossier de décision",
+      "description1": "Le dossier de décision est un outil permettant de rassembler en un seul document, tous les éléments nécessaires et pertinents au choix d’une solution et au démarrage d’un projet.",
+      "description2": "Un dossier de décision peut prendre plusieurs formes : une évaluation d’opportunités, une analyse préliminaire ou une étude d’avant-projet. Les conseillers de LCG Solution vous accompagneront dans l’analyse des besoins et dans la collecte de l’information auprès des parties prenantes afin de développer le dossier approprié à votre situation. Ils pourront prendre en charge l’ensemble de la démarche ou vous appuyer dans la vôtre."
+    },
+    "sous-titre3" : {
+      "titre" : "La cartographie des capacités",
+      "description1": "La cartographie des capacités est un concept d’architecture d’affaires qui permet de visualiser ce que l’organisation fait indépendamment de sa structure organisationnelle ou de l’organisation de ses systèmes. Plusieurs modèles existent pour réaliser la cartographie. Nos conseillers utilisent, notamment, le Business Model Canvas.",
+      "description2": "Une cartographie de la capacité d’affaires de l’entreprise est un modèle associant les capacités, les processus et les fonctions nécessaires à la réussite avec les ressources appropriées qui leur permettent de livrer efficacement ce qui est requis pour réaliser la mission.",
+      "description3": "L’élaboration d’une cartographie des capacités s’inscrit dans une logique d’architecture d’entreprise. Celle-ci est un puissant levier pour maîtriser la complexité des processus, des structures et des technologies qui composent l’organisation. L’architecture d’entreprise, qui inclut une architecture d’affaires, transpose la vision et les orientations stratégiques en objectifs concrets permettant de définir, avec assurance, la cible des projets.",
+      "description4": "Les conseillers de LCG Solution seront en mesure de vous appuyer pour réaliser une telle cartographie ainsi que la transformation nécessaire de l’organisation."
+    },
+    "sous-titre4" : {
+      "titre": "L’approche de Design Thinking",
+      "description": "L’approche de Design Thinking a d’abord été une stratégie créative utilisée par les concepteurs en design. Elle a ensuite été explorée comme approche pour résoudre les problèmes dans les organisations. Proche de l’analyse d’affaires en ce qui concerne les outils de résolution de problèmes, elle aborde différemment les enjeux en privilégiant les aspects humain et utilisateur."
+    },
+    "sous-titre5" : {
+      "titre": "Conseil en transformation organisationnelle",
+      "description": "La transformation de l’organisation est une des principales caractéristiques d’une entreprise en plein essor. La complexité grandissante des efforts de transformation représente un défi que les conseillers de LCG Solution comprennent bien. À l’aide des outils d’analyse d’affaires et d’architecture et appuyés par une compréhension de la gouvernance des projets, des programmes et des portefeuilles de gestion, les conseillers de LCG Solution vous accompagneront dans la réflexion stratégique, ainsi que dans les étapes subséquentes de planification, d’organisation et de mise en œuvre."
+    },
+    "sous-titre6" : {
+      "titre": "Gestion de projet, de programme et de portefeuille",
+      "description": "Suivant les principes du PMI ©, nos conseillers se distinguent par l’intégration de l’analyse d’affaires à nos approches en gestion de projets, de programmes, de portefeuilles ainsi que du changement. Nos conseillers expérimentés vous appuieront en développant des définitions claires pour vos projets. Cela vous permettra de mobiliser vos équipes dans la réalisation de vos stratégies."
+    },
+    "sous-titre7" : {
+      "titre": "Bureau de projets",
+      "description": "Le bureau de projets peut prendre différents rôles dans une organisation. Ici très directif et là seulement en appui, il doit répondre à un besoin réel de l’organisation et augmenter la valeur des projets. Pour faire évoluer un bureau de projet, on doit l’intégrer aux modes de gestion de l’organisation tout en incluant des mécanismes de gouvernance solides et cohérents."
+    }
+  },
+  "Academie": {
+    "titre": "ACADÉMIE",
+    "description": "L’Académie se veut un lieu pour réunir la connaissance des métiers, des techniques et des outils clés en ingénierie d’affaires. On y prône une approche qui suscite l’innovation tout en améliorant la capacité des individus à structurer les organisations pour en accroître l’efficacité et la rentabilité. Ici, nous tentons de créer un espace de réflexion sur les façons de faire et les outils.",
+    "sous-titre1": {
+      "titre": "Approche de développement des formations",
+      "description1": "Chez LCG Solution, le développement des formations s’appuie sur l’expertise de nos formateurs, sur une compréhension des compétences nécessaires et sur une approche pédagogique structurée.",
+      "description2": "Nos formations sont offertes en mode présentiel et en mode hybride."
+    },
+    "sous-titre2" : {
+      "titre": "Coaching",
+      "description": "Le but du coaching est de permettre aux individus d’améliorer leur manière d’aborder des situations ou des activités spécifiques."
+    }
+  },
+  "Performance": {
+    "titre": "PERFORMANCE",
+    "description1": "Le monde de l’évaluation de compétences est en plein essor, poussé entre autres par une rapide évolution des technologies. De plus, les emplois se spécialisent et il devient de plus en plus difficile pour les gestionnaires d’évaluer eux-mêmes les compétences de leurs ressources. Ceux-ci se tournent donc vers des spécialistes du domaine qui peuvent évaluer les compétences des ressources en se basant sur des normes établies.",
+    "description2": "Les évaluateurs sont en général équipés de gabarits, de chiffriers et de documents difficiles à comprendre. Ces évaluations sont coûteuses, longues à faire et il est difficile de comparer le travail d’un évaluateur par rapport à un autre. Afin de faciliter la transparence et l’uniformité des évaluations, LCG Solution a développé un outil permettant de compiler les données récoltées par les évaluations, de les comparer entre-elles et de les positionner par rapport aux normes établies",
+    "description3": {
+      "titre": "Les bénéfices de cet outil sont nombreux :",
+      "bullet1": "Des résultats faciles à comprendre",
+      "bullet2": "Des processus optimisés",
+      "bullet3": "Des normes pré-validées",
+      "bullet4": "L’intégration des tests psychométriques"
+    }
+  },
+  "Technologie": {
+    "titre": "TECHNOLOGIE",
+    "description": "Si vous recherchez LCG Technologie, notre compagnie sœur, suivez ce lien : "
   }
 }
