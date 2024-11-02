@@ -44,32 +44,32 @@
     "LC": {
       "nom": "Louis-Charles Gauthier",
       "role": "LCG SOLUTION PRESIDENT",
-      "description": "Louis-Charles Gauthier, CEO of LCG Solution, is a recognized expert in business analysis. He is involved in the organization’s strategic plans and good practices in business analysis and project management. Mr. Gauthier has more than 25 years of experience in computer science. Over the years, he has acquired expertise in staff assessment which he used to develop an assessment framework used to assess business analysts, project managers or any other type of employment. He founded LCG Solution in 2007. He was a founding member of the Montreal section of IIBA in 2005 and then vice president and president from 2010 to 2012. He is a sought-after speaker who has given several presentations to companies and organizations such as PMI, the IIBA, and at several symposiums in Montreal, Quebec, Geneva, and Paris (BASF).  He teaches project management at McGill University."
+      "description": "Louis-Charles Gauthier, CEO of LCG Solution, is a recognized expert in business analysis. He is involved in the organization’s strategic plans and good practices in business analysis and project management. Mr. Gauthier has more than 25 years of experience in computer science. Over the years, he has acquired expertise in staff assessment which he used to develop an assessment framework used to assess business analysts, project managers, or any other type of employment. He founded LCG Solution in 2007. He was a founding member of the Montreal section of IIBA in 2005 and then vice president and president from 2010 to 2012. He is a sought-after speaker who has given several presentations to companies and organizations such as PMI, the IIBA, and at several symposiums in Montreal, Quebec, Geneva, and Paris (BASF).  He teaches project management at McGill University."
     },
     "JV": {
       "nom": "Jean Vaillancourt",
       "role": "PRESIDENT OF LCG TECHNO",
-      "description": "Jean Vaillancourt is President of LCG Techno. He holds a BA in mathematical computer science from Université Laval. After a few years as a consultant, Mr. Vaillancourt worked for the Quebec government from 1987 to 2018 as a developer, functional analyst, webmaster and system architect. He brings to LCG Solution his expertise in Oriented Object, web, data modeling and systems, programming, security, EDM, architecture and development methodology. In 2003, he co-founded Agrafe Studio, a website development company. He also helped found Kanga Media in 2008."
+      "description": "Jean Vaillancourt is President of LCG Techno. He holds a BA in mathematical computer science from Université Laval. After a few years as a consultant, Mr. Vaillancourt worked for the Quebec government from 1987 to 2018 as a developer, functional analyst, webmaster, and system architect. He brings to LCG Solution his expertise in Oriented Object, web, data modeling and systems, programming, security, EDM, architecture, and development methodology. In 2003, he co-founded Agrafe Studio, a website development company. He also helped found Kanga Media in 2008."
     },
     "PA": {
       "nom": "Pascale Audet",
       "role": "COMPUTER SYSTEMS AND HUMAN SKILLS DEVELOPER",
-      "description": "Pascale-Andrée Audet is a computer systems and human skills developer. She writes web applications in JavaScript, Java and everything that is needed to perform. She is a full-stack developer who believes in collaboration and team growth. Pascale-Andrée enjoys music and visual art, as well as gardening. To date, her garden is over 92m2!"
+      "description": "Pascale-Andrée Audet is a computer system and human skills developer. She writes web applications in JavaScript, Java, and everything that is needed to perform. She is a full-stack developer who believes in collaboration and team growth. Pascale-Andrée enjoys music and visual art, as well as gardening. To date, her garden is over 92m2!"
     },
     "AG": {
       "nom": "Aurélie Gauthier",
       "role": "JUNIOR DEVELOPER",
-      "description": "Aurélie Gauthier is a junior front-end developer with expertise in JavaScript, React, HTML and CSS. Graduated in December 2023, she is passionate about creating dynamic and user-friendly user interfaces. His favorite languages include Java, PHP, SQL and PL/SQL, testifying to his curiosity and interest in a variety of technologies."
+      "description": "Aurélie Gauthier is a junior front-end developer with expertise in JavaScript, React, HTML, and CSS. Graduated in December 2023, she is passionate about creating dynamic and user-friendly user interfaces. Her favorite languages include Java, PHP, SQL, and PL/SQL, testifying to his curiosity and interest in a variety of technologies."
     }
   },
   "About": {
     "title": "ABOUT US",
     "clients": "OUR CLIENTS",
     "equipe": "OUR TEAM",
-    "description": "Founded in 2007, LCG Solution is a company specializing in the fields of business analysis, project management and enterprise architecture.",
+    "description": "Founded in 2007, LCG Solution is a company specializing in the fields of business analysis, project management, enterprise architecture and also personnel assessment",
     "description1": "There are four components to our service offering:",
     "academie": "L’Académie d’ingénierie d’affaires ",
-    "academie.description": "offers training, coaching and conference services. It includes training on basic concepts, specialized training and certification courses. Our courses are offered in both face-to-face and hybrid modes. The full list of courses can be found here. If you do not find what you are looking for, do not hesitate to contact us, we will be happy to adjust our courses to your needs.",
+    "academie.description": "offers training, coaching, and conference services. It includes training on basic concepts, specialized training, and certification courses. Our courses are offered in both face-to-face and hybrid modes. The full list of courses can be found here. If you do not find what you are looking for, do not hesitate to contact us, we will be happy to adjust our courses to your needs.",
     "conseil": "LCG Conseil ",
     "conseil.description": "offers consulting services to company management. We work with project offices and other sectors of organizations to assist them in project governance and needs development by following best practices in business analysis and project or program management.",
     "RH": "LCG Ressource humaine ",
@@ -81,7 +81,7 @@
     "Conseil": {
       "titre": "CONSULTING",
       "sous-titre": "Strategic consulting",
-      "description": "In order to adequately meet the needs of our various clients, our experts use an analytical approach that allows them to identify the root causes of problems in order to facilitate decision-making.",
+      "description": "In order to adequately meet the needs of our various clients, our experts use an analytical approach that allows them to identify the root causes of problems to facilitate decision-making.",
       "bouton": "Learn more"
     },
     "Academie": {
@@ -108,7 +108,7 @@
     "onglet": "Conseil",
     "sous-titre1": {
       "titre": "Our consulting service",
-      "description": "To adequately address the needs of our different clients, our experts use an analytical approach that allows them to identify root causes of problems in order to facilitate decision making. They have several tools at their disposal, but they prefer the following tools:",
+      "description": "To adequately address the needs of our different clients, our experts use an analytical approach that allows them to identify root causes of problems to facilitate decision-making. They have several tools at their disposal, but they prefer the following tools:",
       "bullet1": "The development of a business case",
       "bullet2": "Mapping of capacities",
       "bullet3": "The approach of Design Thinking"
@@ -116,13 +116,13 @@
     "sous-titre2" : {
       "titre" : "Business case",
       "description1": "A Business case is a tool that allows to gather in one document all the necessary and relevant elements for the choice of a solution and the start of a project.",
-      "description2": "A Business case can take several forms: an opportunity assessment, a preliminary analysis or a pre-project study. LCG Solution consultants will assist you in the analysis of needs and in gathering information from stakeholders to develop the appropriate case for your situation. They can take over the whole process or support you in yours."
+      "description2": "A Business case can take several forms: an opportunity assessment, a preliminary analysis, decision-making, or a pre-project study. LCG Solution consultants will assist you in the analysis of needs and in gathering information from stakeholders to develop the appropriate case for your situation. They can take over the whole process or support you in yours."
     },
     "sous-titre3" : {
       "titre" : "Mapping of capacities",
       "description1": "Capacity mapping is a business architecture concept that allows you to visualize what an organization does regardless of its organizational structure or the organization of its systems. Several models exist for mapping. Our advisors use, among others, the Business Model Canvas.",
-      "description2": "A business capacity mapping is a model that combines the capabilities, processes and functions needed for success with the appropriate resources to deliver effectively what is required to achieve the mission.",
-      "description3": "The development of a capacity mapping is part of an enterprise architecture logic. This is a powerful lever to master the complexity of the processes, structures and technologies that make up the organization. Enterprise architecture, which includes a business architecture, translates the vision and strategic orientations into concrete objectives to define, with assurance, the target of projects.",
+      "description2": "A business capacity mapping is a model that combines the capabilities, processes, and functions needed for success with the appropriate resources to deliver effectively what is required to achieve the mission.",
+      "description3": "The development of a capacity mapping is part of an enterprise architecture logic. This is a powerful lever to master the complexity of the processes, structures, and technologies that make up the organization. Enterprise architecture, which includes a business architecture, translates the vision and strategic orientations into concrete objectives to define, with assurance, the target of projects.",
       "description4": "LCG Solution consultants will be able to support you in the implementation of such mapping and the necessary transformation of the organization."
     },
     "sous-titre4" : {
@@ -131,20 +131,20 @@
     },
     "sous-titre5" : {
       "titre": "Corporate transformation consulting",
-      "description": "Organizational transformation is one of the key characteristics of a growing business. The growing complexity of transformation efforts is a challenge that LCG Solution advisors understand well. Using business analysis and architecture tools, supported by an understanding of project, program and portfolio governance, LCG Solution advisors will support you in your strategic thinking, and subsequent planning, organization and implementation steps."
+      "description": "Organizational transformation is one of the key characteristics of a growing business. The growing complexity of transformation efforts is a challenge that LCG Solution advisors understand well. Using business analysis and architecture tools, supported by an understanding of project, program, and portfolio governance, LCG Solution advisors will support you in your strategic thinking, and subsequent planning, organization, and implementation steps."
     },
     "sous-titre6" : {
       "titre": "Project, program and portfolio management",
-      "description": "Following the principles of PMI ©, our advisors are distinguished by integrating business analysis with our approaches to project, program, portfolio and change management. Our experienced consultants will support you by developing clear definitions for your projects. This will allow you to mobilize your teams in the implementation of your strategies."
+      "description": "Following the principles of PMI ©, our advisors are distinguished by integrating business analysis with our approaches to project, program, portfolio, and change management. Our experienced consultants will support you by developing clear definitions for your projects. This will allow you to mobilize your teams in the implementation of your strategies."
     },
     "sous-titre7" : {
       "titre": "Project office",
-      "description": "The project office can take on different roles in an organization. Highly directive and only supportive, it must meet a real need of the organization and increase the value of projects. To evolve a project office, it must be integrated into the organization’s management practices while incorporating strong and consistent governance mechanisms."
+      "description": "The project office can take on different organizational roles. Highly directive and only supportive, it must meet a real need of the organization and increase the value of projects. To evolve a project office, it must be integrated into the organization’s management practices while incorporating strong and consistent governance mechanisms."
     }
   },
   "Academie": {
     "titre": "ACADEMY",
-    "description": "The Academy is intended as a place to bring together knowledge of key trades, techniques and tools in business engineering. It advocates an approach that fosters innovation while improving the ability of individuals to structure organizations to increase their efficiency and profitability. Here we are trying to create a space for reflection on ways of doing things and tools.",
+    "description": "The Academy is intended as a place to bring together knowledge of key trades, techniques, and tools in business engineering. It advocates an approach that fosters innovation while improving the ability of individuals to structure organizations to increase their efficiency and profitability. Here we are trying to create a space for reflection on ways of doing things and tools.",
     "sous-titre1": {
       "titre": "Approach to training development",
       "description1": "At LCG Solution, the development of training is based on our trainers' expertise, an understanding of the necessary skills and a structured pedagogical approach.",
@@ -158,7 +158,7 @@
   "Performance": {
     "titre": "PERFORMANCE",
     "description1": "The world of skills assessment is booming, driven by rapid technological change. In addition, jobs are becoming more specialized and it is increasingly difficult for managers to assess the skills of their resources themselves. They therefore turn to specialists in the field who can assess the skills of resources based on established standards.",
-    "description2": "Evaluators are usually equipped with templates, spreadsheets and hard-to-understand documents. These assessments are expensive, time-consuming and difficult to compare the work of one assessor against another. To facilitate the transparency and consistency of evaluations, LCG Solution has developed a tool that allows the data collected by the evaluations to be compiled, compared with each other and positioned against established standards",
+    "description2": "Evaluators usually have templates, spreadsheets, and hard-to-understand documents. These assessments are expensive, time-consuming, and difficult to compare the work of one assessor against another. To facilitate the transparency and consistency of evaluations, LCG Solution has developed a tool that allows the data collected by the evaluations to be compiled, compared with each other, and positioned against established standards",
     "description3": {
       "titre": "The benefits of this tool are many:",
       "bullet1": "Easy to understand results",
