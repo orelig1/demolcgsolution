@@ -1,0 +1,25 @@
+services:
+  caddy:
+    image: caddy:latest
+    container_name: kci-caddy
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./caddy/reverse-proxy_Caddyfile:/etc/caddy/Caddyfile
+
+  kci:
+    image: node:lts-alpine3.20
+    container_name: kci
+    command: sh -c "yarn install && yarn serve"
+    environment:
+      - NODE_ENV=development
+      - VUE_APP_KCM_BASEURL=https://dev.kalifi.ca
+    volumes:
+      - kci-node_modules:/app/node_modules
+      - .:/app
+    working_dir: /app
+
+volumes:
+  kci-node_modules:
+    external: true

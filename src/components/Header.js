@@ -51,7 +51,7 @@ function Header({ t, i18n }) {
           component="div"
           sx={{
             mr:  2,
-            display: { xs: 'none', md: 'flex' },
+            display: { xs: 'flex', md: 'flex' },
             fontFamily: 'monospace',
             fontWeight:  700,
             letterSpacing: '.3rem',
@@ -93,8 +93,18 @@ function Header({ t, i18n }) {
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{t(page)}</Typography>
+                <MenuItem
+                  key={page}
+                  onClick={() => {
+                    handleCloseNavMenu(); 
+                  }}
+                >
+                  <Link
+                    to={getPagePath(page)}
+                    style={{ textDecoration: 'none', color: 'inherit' }} 
+                  >
+                    <Typography textAlign="center">{t(page)}</Typography>
+                  </Link>
                 </MenuItem>
               ))}
             </Menu>

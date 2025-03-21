@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import { Card, Box, Avatar } from '@mui/material';
+import { Card, Box, Avatar, useMediaQuery } from '@mui/material';
 import CardHeader from '@mui/material/CardHeader';
 import CardContent from '@mui/material/CardContent';
 import CardActions from '@mui/material/CardActions';
@@ -9,122 +9,71 @@ import Typography from '@mui/material/Typography';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { withTranslation } from 'react-i18next';
 import LC from '../images/LC.png';
-import JV from '../images/JV.png'
-import AG from '../images/AG.jpg'
-import PA from '../images/PA.png'
+import JV from '../images/JV.png';
+import AG from '../images/AG.jpg';
+import PA from '../images/PA.png';
 
-function NotreEquipe({t}) {
+function NotreEquipe({ t }) {
+  const isMobile = useMediaQuery('(max-width: 768px)');
 
   return (
-    <Carousel style={{ height: "700px", minWidth: "500px"}}>
-      <Carousel.Item>
-        <Box sx={{ display: 'flex', justifyContent: 'center' }}>
-            <Card sx={{ maxWidth: 500, minWidth: 500, marginTop: "20px", marginBottom: "20px"}}>
-                <CardHeader sx={{marginLeft: "170px"}}
-                    avatar={<Avatar sx={{width: "120px", height: "120px",}} src={LC}/>}
-                />
-                <CardContent>
-                    <Typography variant="h5" component="div" sx={{ textAlign: 'center'}}>
-                        {t('Equipe.LC.nom')}
-                    </Typography>
-                    <Typography color="text.secondary" sx={{ mb: 1.5, textAlign: 'center', fontSize: "0.8em"}}>
-                        {t('Equipe.LC.role')}
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary" sx={{ textAlign: 'justify', mt: "20px" }}>
-                        {t('Equipe.LC.description')}
-                    </Typography>
-                </CardContent>
-                <CardActions disableSpacing sx={{ display: 'flex', justifyContent: 'center' }}>
-                    <a href="https://www.linkedin.com/in/louischarlesgauthier/" target="_blank" rel="noopener noreferrer">
-                        <IconButton>
-                            <LinkedInIcon color='primary'/>
-                        </IconButton>
-                    </a>
-                </CardActions>
+    <Carousel
+      indicators={true} // Keep the dots at the bottom
+      controls={!isMobile} // Hide arrows on mobile
+      interval={3000}
+    >
+      {[ 
+        { src: LC, name: 'Equipe.LC.nom', role: 'Equipe.LC.role', desc: 'Equipe.LC.description', link: 'https://www.linkedin.com/in/louischarlesgauthier/' },
+        { src: JV, name: 'Equipe.JV.nom', role: 'Equipe.JV.role', desc: 'Equipe.JV.description', link: 'https://www.linkedin.com/in/vaillancourtjean/' },
+        { src: PA, name: 'Equipe.PA.nom', role: 'Equipe.PA.role', desc: 'Equipe.PA.description', link: 'https://www.linkedin.com/in/audetpascale/' },
+        { src: AG, name: 'Equipe.AG.nom', role: 'Equipe.AG.role', desc: 'Equipe.AG.description', link: 'https://www.linkedin.com/in/aur%C3%A9lie-gauthier-54002429b/' }
+      ].map((member, index) => (
+        <Carousel.Item key={index}>
+          <Box sx={{ display: 'flex', justifyContent: 'center' }}>
+            <Card sx={{ 
+              width: isMobile ? "100%" : 345, 
+              height: 500,
+              display: 'flex', 
+              flexDirection: 'column', 
+              justifyContent: 'space-between', 
+              marginTop: "20px", 
+              marginBottom: "20px",
+              overflow: "hidden" 
+            }}>
+              <CardHeader 
+                sx={{ display: 'flex', justifyContent: 'center' }}
+                title={
+                  <Box sx={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
+                    <Avatar sx={{ width: 120, height: 120 }} src={member.src} />
+                  </Box>
+                }
+              />
+              <CardContent sx={{ 
+                flexGrow: 1, 
+                overflowY: "auto", 
+                maxHeight: 1000 
+              }}> 
+                <Typography variant="h5" component="div" sx={{ textAlign: 'center' }}>
+                  {t(member.name)}
+                </Typography>
+                <Typography color="text.secondary" sx={{ mb: 1.5, textAlign: 'center', fontSize: "0.8em" }}>
+                  {t(member.role)}
+                </Typography>
+                <Typography variant="body2" color="text.secondary" sx={{ textAlign: 'justify', mt: "10px" }}>
+                  {t(member.desc)}
+                </Typography>
+              </CardContent>
+              <CardActions disableSpacing sx={{ display: 'flex', justifyContent: 'center', paddingBottom: "10px" }}>
+                <a href={member.link} target="_blank" rel="noopener noreferrer">
+                  <IconButton>
+                    <LinkedInIcon color='primary' />
+                  </IconButton>
+                </a>
+              </CardActions>
             </Card>
-        </Box>
-      </Carousel.Item>
-      <Carousel.Item>
-      <Box sx={{ display: 'flex', justifyContent: 'center' }}>
-            <Card sx={{ maxWidth: 345, minWidth: "345px", marginTop: "20px", marginBottom: "20px"}}>
-                <CardHeader sx={{marginLeft: "100px"}}
-                    avatar={<Avatar sx={{width: "120px", height: "120px",}} src={JV}/>}
-                />
-                <CardContent>
-                    <Typography variant="h5" component="div" sx={{ textAlign: 'center'}}>
-                        {t('Equipe.JV.nom')}
-                    </Typography>
-                    <Typography color="text.secondary" sx={{ mb: 1.5, textAlign: 'center', fontSize: "0.8em"}}>
-                        {t('Equipe.JV.role')}
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary" sx={{ textAlign: 'justify', mt: "20px" }}>
-                        {t('Equipe.JV.description')}
-                    </Typography>
-                </CardContent>
-                <CardActions disableSpacing sx={{ display: 'flex', justifyContent: 'center' }}>
-                    <a href="https://www.linkedin.com/in/vaillancourtjean/" target="_blank" rel="noopener noreferrer">
-                        <IconButton>
-                            <LinkedInIcon color='primary'/>
-                        </IconButton>
-                    </a>
-                </CardActions>
-            </Card>
-        </Box>
-      </Carousel.Item>
-      <Carousel.Item>
-      <Box sx={{ display: 'flex', justifyContent: 'center' }}>
-      <Card sx={{ maxWidth: 345, minWidth: "345px", marginTop: "70px", marginBottom: "20px"}}>
-                <CardHeader sx={{marginLeft: "100px"}}
-                    avatar={<Avatar sx={{width: "120px", height: "120px",}} src={PA}/>}
-                />
-                <CardContent>
-                    <Typography variant="h5" component="div" sx={{ textAlign: 'center'}}>
-                        {t('Equipe.PA.nom')}
-                    </Typography>
-                    <Typography color="text.secondary" sx={{ mb: 1.5, textAlign: 'center', fontSize: "0.8em"}}>
-                        {t('Equipe.PA.role')}
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary" sx={{ textAlign: 'justify', mt: "20px" }}>
-                        {t('Equipe.PA.description')}
-                    </Typography>
-                </CardContent>
-                <CardActions disableSpacing sx={{ display: 'flex', justifyContent: 'center' }}>
-                    <a href="https://www.linkedin.com/in/audetpascale/" target="_blank" rel="noopener noreferrer">
-                        <IconButton>
-                            <LinkedInIcon color='primary'/>
-                        </IconButton>
-                    </a>
-                </CardActions>
-            </Card>
-        </Box>
-      </Carousel.Item>
-      <Carousel.Item>
-        <Box sx={{ display: 'flex', justifyContent: 'center' }}>
-            <Card sx={{ maxWidth: 345, minWidth: "345px", marginTop: "50px", marginBottom: "20px"}}>
-                <CardHeader sx={{marginLeft: "100px"}}
-                    avatar={<Avatar sx={{width: "120px", height: "120px",}} src={AG}/>}
-                />
-                <CardContent>
-                    <Typography variant="h5" component="div" sx={{ textAlign: 'center'}}>
-                        {t('Equipe.AG.nom')}
-                    </Typography>
-                    <Typography color="text.secondary" sx={{ mb: 1.5, textAlign: 'center', fontSize: "0.8em"}}>
-                        {t('Equipe.AG.role')}
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary" sx={{ textAlign: 'justify', mt: "20px" }}>
-                        {t('Equipe.AG.description')}
-                    </Typography>
-                </CardContent>
-                <CardActions disableSpacing sx={{ display: 'flex', justifyContent: 'center' }}>
-                    <a href="https://www.linkedin.com/in/aur%C3%A9lie-gauthier-54002429b/" target="_blank" rel="noopener noreferrer">
-                        <IconButton>
-                            <LinkedInIcon color='primary'/>
-                        </IconButton>
-                    </a>
-                </CardActions>
-            </Card>
-        </Box>
-      </Carousel.Item>
+          </Box>
+        </Carousel.Item>
+      ))}
     </Carousel>
   );
 }

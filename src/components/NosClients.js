@@ -10,12 +10,14 @@ import logo_Giro1 from '../images/logo_Giro1.png'
 import agnico from '../images/agnico.png'
 import AIM_logo from '../images/AIM_logo.jpg'
 import AIMQ_logo from '../images/AIMQ_logo.png'
-import { Box } from '@mui/material';
+import { Box, useMediaQuery } from '@mui/material';
 
 export default function StandardImageList() {
+  const isMobile = useMediaQuery('(max-width:900px)'); 
+
   return (
-    <Box sx={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-      <ImageList sx={{ width: 700, height: '100%', overflow: 'hidden'}} cols={4} rowHeight={160}>
+    <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: "100%" }}>
+      <ImageList sx={{ width: '100%', height: '100%', overflow: 'hidden' }} cols={isMobile ? 2 : 4} rowHeight={isMobile ? 120 : 160}>
         {itemData.map((item) => (
           <ImageListItem key={item.img}>
             <img
@@ -23,12 +25,16 @@ export default function StandardImageList() {
               src={`${item.img}?w=200&h=200&fit=crop&auto=format`}
               alt={item.title}
               loading="lazy"
+              style={{
+                objectFit: 'contain',
+                width: '100%',
+                height: '100%',
+              }}
             />
           </ImageListItem>
         ))}
       </ImageList>
     </Box>
-    
   );
 }
 

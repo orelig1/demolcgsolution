@@ -1,0 +1,7 @@
+:80 {
+    encode zstd gzip
+    file_server
+    root * /srv
+    templates
+    try_files {path} /index.html
+}
